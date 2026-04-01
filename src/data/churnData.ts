@@ -44,7 +44,7 @@ export const CHURN_ACUM: ChurnRow[] = [
   { ies: 'FDC',          churn: 4.99, meta: 6.48,  churn2025: 6.76,  baseAtivaReal: 936,  baseAtivaMeta: 778,  metaBaseDez: 1114, desvio: -23.0, yoy: -32.1 },
 ];
 
-// ─── Retention Trend — churlYearly['2026'] por IES ───────────────────────────
+// ─── Retention Trend — churnYearly['2026'] por IES ───────────────────────────
 // Gerado diretamente de IES_CONFIG.churnYearly para garantir consistência.
 // Fonte única: os arrays abaixo DEVEM ser idênticos a IES_CONFIG[key].churnYearly['2026']
 export interface RetentionSeries {

@@ -103,9 +103,9 @@ export const IES_CONFIG: Record<string, IESConfig> = {
     evasao: 118, evasaoMeta: 95,
     formandos: 259, formandosMeta: 288,
     churnAcum: 8.47, churnMeta: 6.06, churnDesvio: 39.8,
-    churmMeta2026: [2.25, 4.39, 6.06, 7.52, 8.87, 10.29, 11.3, 12.33, 13.48, 14.67, 15.53, 16.81],
+    churnMeta2026: [2.25, 4.39, 6.06, 7.52, 8.87, 10.29, 11.3, 12.33, 13.48, 14.67, 15.53, 16.81],
     churnYearly: {
-      '2024': [8.38, 8.68, 9.94, 12.02, 13.0, 12.84, 14.02, 14.72, 14.91, 16.32, 17.15, 17.58],
+      '2024': [8.38, 8.68, 9.93, 12.02, 13.0, 12.84, 14.02, 14.72, 14.91, 16.32, 17.15, 17.58],
       '2025': [4.4, 8.54, 11.47, 13.33, 13.39, 13.92, 17.09, 19.61, 21.37, 23.93, 23.39, 25.64],
       '2026': [3.47, 6.82, 8.47],
     },
@@ -134,8 +134,7 @@ export const IES_CONFIG: Record<string, IESConfig> = {
     formandos: null, formandosMeta: null,
     churnAcum: null, churnMeta: null, churnDesvio: null,
     churnMeta2026: null,
-    churnYearly: {
-+    },
+    churnYearly: {},
     status: {},
   },
 };
